@@ -1,0 +1,106 @@
+.fourbg{
+  background-image: linear-gradient(to right, #0099f7, #f11712);
+    margin:10px;
+    text-align: center;
+    padding:50px;
+    border-radius: 40px;
+    animation:slideInright 0.3s ease-out 0.01s 1 normal none;
+}
+@keyframes slideInright{
+  from{transform:translateX(3000px);
+  }
+  to{transform:translateX(0);
+  }
+}
+
+
+h2{
+    text-align:left;
+}
+@media screen and (max-width:3200px){
+      
+    .fourbg{
+        padding: 94px;
+      
+    }
+    
+    
+
+    
+   }
+@media screen and (max-width:600px){
+      
+    
+    .button1{
+      right:2%;
+      bottom:2%;
+      
+    }
+      .fourbg{
+        padding: 45px;
+      }
+
+
+    
+   }
+   .butq1{position: absolute;
+    
+    left:5%;
+    font-weight: 900;
+    background-color:black;
+    color:white;
+    border-radius: 15px;
+    padding:10px 20px;
+   }
+
+   .butq2{position: absolute;
+    
+    right:5%;
+    font-weight: 900;
+    background-color:black;
+    color:white;
+    border-radius: 15px;
+    padding:10px 20px;
+   }
+   
+   /* Pop-up animation on scroll */
+@keyframes pop-up {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply animation to h1, h2, h3, h4 and p elements */
+h1,
+h2,
+h3,
+h4,
+p {
+  animation-name: pop-up;
+  animation-duration: 1s;
+  animation-delay: 0.01s;
+  animation-timing-function: ease-out;
+  visibility: visible;
+}
+.te{
+  
+  
+  place-content: center;
+  background-image: linear-gradient(to right, #e1d384, #b20a2c);
+  border-color: black;
+  
+  height: 20rem;
+  min-width: 15rem;
+  padding:5px ;
+  align-items: center;
+  border-radius: 20px;
+  color:black;
+  border-width: 1px;
+border-width: 1px;
+margin:30px;
+}
